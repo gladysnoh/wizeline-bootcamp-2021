@@ -16,7 +16,6 @@ fixture ('Products List testing ')
 
 test('G) As a User I should be able to complete a purchase', async t =>{
     const products = PRODUCTS.map((product) => product.NAME);
-    console.log(products);
     await ProductsListPage.addSpecificProductsToCart(products)
     await t.click(Navbar.shoppingCartLink)
     // We should be on shopping cart page

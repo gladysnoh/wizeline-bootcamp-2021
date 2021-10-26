@@ -1,0 +1,8 @@
+{
+    "browsers": ["chrome"],
+    "src": [
+        "./pom/tests/Login.test.js",
+        "./pom/tests/ProductsList.test.js",
+        "./pom/tests/ShoppingProcess.test.js"
+    ]
+}
