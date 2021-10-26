@@ -1,0 +1,18 @@
+{
+  "name": "saucedemo",
+  "version": "1.0.0",
+  "description": "Wizeline bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login-test": "testcafe chrome pom/tests/Login.test.js",
+    "products-test": "testcafe chrome pom/tests/ProductsList.test.js",
+    "shopping-process-test": "testcafe chrome pom/tests/ShoppingProcess.test.js"
+  },
+  "author": "Gladys Noh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.16.1"
+  }
+}
