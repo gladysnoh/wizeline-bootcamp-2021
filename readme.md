@@ -1,6 +1,6 @@
 # wizeline-challenge
-This repository was created in order to deliver my bootcamp chanllenge assessment 
-#Installation
+This repository was created in order to deliver my bootcamp chanllenge assessment
+# Installation
 In order to have the project's dependencies, please run the following command: *npm install*
 # How to use my test scripts
 
