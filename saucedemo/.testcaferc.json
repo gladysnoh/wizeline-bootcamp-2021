@@ -1,5 +1,5 @@
 {
-    "browsers": ["chrome"],
+    "browsers": ["chrome", "firefox"],
     "src": [
         "./pom/tests/Login.test.js",
         "./pom/tests/ProductsList.test.js",
