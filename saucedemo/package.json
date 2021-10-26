@@ -8,7 +8,9 @@
     "login-test": "testcafe chrome pom/tests/Login.test.js",
     "products-test": "testcafe chrome pom/tests/ProductsList.test.js",
     "shopping-process-test": "testcafe chrome pom/tests/ShoppingProcess.test.js",
-    "tests-from-config-file": "testcafe"
+    "tests-from-config-file": "testcafe --reporter allure",
+    "generate-report-windows": "(allure generate allure/allure-results --clean -o allure/allure-report) -and (allure open allure/allure-report)",
+    "generate-report": "allure generate allure/allure-results --clean -o allure/allure-report && allure open allure/allure-report"
   },
   "author": "Gladys Noh",
   "license": "MIT",
@@ -16,5 +18,8 @@
     "dotenv": "^10.0.0",
     "testcafe": "^1.16.1",
     "testcafe-reporter-allure": "^1.0.5"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.13.8"
   }
 }

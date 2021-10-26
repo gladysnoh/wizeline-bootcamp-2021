@@ -4,7 +4,7 @@ import ProductsListPage from "../pages/ProductsListPage";
 import Navbar from "../components/Navbar";
 import ShoppingCartPage from "../pages/ShoppingCartPage";
 
-fixture ('Products List testing ')
+fixture ('Products List Testing')
     .page`${URLS.LOGIN_URL}`
     .beforeEach(async t => {
         await LoginPage.submitLoginForm(CREDENTIALS.ACCEPTED_CREDENTIALS.STANDARD_USERNAME, CREDENTIALS.ACCEPTED_CREDENTIALS.PASSWORD)

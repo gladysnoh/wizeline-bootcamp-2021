@@ -3,7 +3,7 @@ import LoginPage from "../pages/LoginPage";
 import Navbar from "../components/Navbar";
 
 
-fixture ('Login testing ')
+fixture ('Login Testing')
     .page`${URLS.LOGIN_URL}`
     .beforeEach(async t => {
         await t.maximizeWindow()

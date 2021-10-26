@@ -7,7 +7,7 @@ import CheckoutPage from "../pages/CheckoutPage";
 import OverviewPage from "../pages/OverviewPage";
 import CheckoutCompletePage from "../pages/CheckoutCompletePage";
 
-fixture ('Products List testing ')
+fixture ('Shopping Process Testing')
     .page`${URLS.LOGIN_URL}`
     .beforeEach(async t => {
         await LoginPage.submitLoginForm(CREDENTIALS.ACCEPTED_CREDENTIALS.STANDARD_USERNAME, CREDENTIALS.ACCEPTED_CREDENTIALS.PASSWORD)
